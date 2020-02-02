@@ -5,4 +5,4 @@ service:
 before_install:
         - docker build -t  mohsenm12669/dokcer-react -f Dockerfile.dev . 
 script:
-        - docker run TEST/dokcer-react npm run test -- --coverage
+        - docker run mohsenm12669/dokcer-react npm run test -- --coverage
